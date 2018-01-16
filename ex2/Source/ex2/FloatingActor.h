@@ -24,6 +24,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	float RunningTime;
 	UPROPERTY(EditAnywhere)
-	float MaxSpeed;
+	float Speed;
+	UPROPERTY(EditAnywhere)
+	float Distance;
 	
 };
