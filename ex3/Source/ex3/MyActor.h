@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "AMyActor.generated.h"
+#include "MyActor.generated.h"
 
 UCLASS()
-class EX3_API AAMyActor : public AActor
+class EX3_API AMyActor : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AAMyActor();
+	AMyActor();
 
 protected:
 	// Called when the game starts or when spawned
@@ -23,6 +23,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* mesh;
 	
 	
 };

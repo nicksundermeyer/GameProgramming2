@@ -1,0 +1,10 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex3/.vscode": true,
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex3/Content": true,
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.xcworkspace": true,
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex3/Intermediate": true,
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex3/Saved": true
+	}
+}

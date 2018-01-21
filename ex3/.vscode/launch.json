@@ -1,0 +1,114 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ex3 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Win64 Debug Build",
+			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\Binaries\\Win64\\ex3-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ex3 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Win64 DebugGame Build",
+			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\Binaries\\Win64\\ex3-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ex3 (Development)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Win64 Development Build",
+			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\Binaries\\Win64\\ex3.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ex3 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Win64 Shipping Build",
+			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\Binaries\\Win64\\ex3-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ex3 (Test)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Win64 Test Build",
+			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\Binaries\\Win64\\ex3-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ex3Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ex3Editor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\ex3.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ex3Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ex3Editor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\ex3.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ex3Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ex3Editor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex3\\ex3.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		}
+	]
+}
