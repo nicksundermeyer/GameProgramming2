@@ -18,7 +18,9 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	
+	FVector NewLocation = GetActorLocation() + FVector(0.f, 0.f, 300.f);  
+
+	AMyActor* NewActor = GetWorld()->SpawnActor<AMyActor>(GetClass(), NewLocation, FRotator::ZeroRotator);
 }
 
 // Called every frame
