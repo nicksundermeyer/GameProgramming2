@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "MyActor.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "MyActorSpawner.generated.h"
@@ -22,4 +23,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> ToSpawn;
+
+	void Spawn();
+	
 };

@@ -16,8 +16,7 @@ void AMyActorSpawner::BeginPlay()
 {
 	Super::BeginPlay();
 
-	
-	
+	Spawn();
 }
 
 // Called every frame
@@ -27,3 +26,9 @@ void AMyActorSpawner::Tick(float DeltaTime)
 
 }
 
+void AMyActorSpawner::Spawn()
+{
+	AActor* Actor1 = GetWorld()->SpawnActor<AActor>(ToSpawn, FVector(0.f, 0.f, 100.f), FRotator::ZeroRotator);
+
+	AActor* Actor2 = GetWorld()->SpawnActor<AActor>(ToSpawn, FVector(100.f, 0.f, 100.f), FRotator::ZeroRotator);
+}
