@@ -1,0 +1,90 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ex3 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Mac Debug Build",
+			"program": "/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/Binaries/Mac/ex3-Mac-Debug.app/Contents/MacOS/ex3-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex3 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Mac DebugGame Build",
+			"program": "/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/Binaries/Mac/ex3-Mac-DebugGame.app/Contents/MacOS/ex3-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex3 (Development)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Mac Development Build",
+			"program": "/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/Binaries/Mac/ex3.app/Contents/MacOS/ex3",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex3 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Mac Shipping Build",
+			"program": "/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/Binaries/Mac/ex3-Mac-Shipping.app/Contents/MacOS/ex3-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex3 (Test)",
+			"request": "launch",
+			"preLaunchTask": "ex3 Mac Test Build",
+			"program": "/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/Binaries/Mac/ex3-Mac-Test.app/Contents/MacOS/ex3-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex3Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ex3Editor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex3Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ex3Editor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex3Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ex3Editor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		}
+	]
+}

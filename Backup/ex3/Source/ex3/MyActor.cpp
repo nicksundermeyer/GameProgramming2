@@ -15,6 +15,7 @@ AMyActor::AMyActor()
 	ConstructorHelpers::FObjectFinder<UStaticMesh> asset(TEXT("/Game/Game/Meshes/Shape_Sphere.Shape_Sphere"));
 	if (asset.Succeeded())
 	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Set mesh"));
 		mesh->SetStaticMesh(asset.Object);
 		mesh->SetWorldScale3D(FVector(.50f));
 	}

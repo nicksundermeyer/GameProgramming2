@@ -2,30 +2,28 @@
 
 #pragma once
 
-#include "MyActor.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "MyActorSpawner.generated.h"
+#include "MyActor.generated.h"
 
 UCLASS()
-class EX3_API AMyActorSpawner : public AActor
+class EX3_API AMyActor : public AActor
 {
 	GENERATED_BODY()
-
-  public:
+	
+public:	
 	// Sets default values for this actor's properties
-	AMyActorSpawner();
+	AMyActor();
 
-  protected:
+protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-  public:
+public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
-	TSubclassOf<AActor> ToSpawn;
-
-	void Spawn();
+	UStaticMeshComponent* mesh;
+	USceneComponent* scene;
+	
 };

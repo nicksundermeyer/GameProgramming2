@@ -1,0 +1,635 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "ex3 Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Shipping",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Shipping",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Test",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"Mac",
+				"Test",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Shipping",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Shipping",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Test",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"IOS",
+				"Test",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Shipping",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Shipping",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Test",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3 HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3",
+				"HTML5",
+				"Test",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3Editor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3Editor",
+				"Mac",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3Editor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3Editor",
+				"Mac",
+				"Debug",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3Editor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3Editor",
+				"Mac",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3Editor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3Editor",
+				"Mac",
+				"DebugGame",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3Editor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3Editor",
+				"Mac",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex3Editor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ex3Editor",
+				"Mac",
+				"Development",
+				"/Users/nicksun/Documents/ProgrammingProjects/GameProgramming2/ex3/ex3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		}
+	]
+}
