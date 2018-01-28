@@ -11,11 +11,11 @@ class EX4_API UMyActorComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-  protected:
+protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-  public:
+public:
 	UMyActorComponent();
 
 	// Called every frame
@@ -30,7 +30,7 @@ class EX4_API UMyActorComponent : public UActorComponent
 	FTransform LocalTransform;
 
 	// adjust scale, rotation, translation of LocalTransform
-	void Scale(FVector newScale);
-	void Rotate(FQuat newRot);
-	void Translate(FVector newTrans);
+	// void Scale(FVector newScale);
+	// void Rotate(FQuat newRot);
+	// void Translate(FVector newTrans);
 };
