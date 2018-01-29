@@ -1,8 +1,9 @@
 {
 	"typescript.tsc.autoDetect": "off",
 	"files.exclude": {
-		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex5/.vscode": true,
-		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex5/Content": true,
-		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex5/Intermediate": true
+		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex5/.vscode": true,
+		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex5/Content": true,
+		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex5/Intermediate": true,
+		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex5/Saved": true
 	}
 }
