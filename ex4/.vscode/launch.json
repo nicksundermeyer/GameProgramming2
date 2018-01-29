@@ -4,111 +4,87 @@
 		{
 			"name": "ex4 (Debug)",
 			"request": "launch",
-			"preLaunchTask": "ex4 Win64 Debug Build",
-			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\Binaries\\Win64\\ex4-Win64-Debug.exe",
+			"preLaunchTask": "ex4 Mac Debug Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/Binaries/Mac/ex4-Mac-Debug.app/Contents/MacOS/ex4-Mac-Debug",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		},
 		{
 			"name": "ex4 (DebugGame)",
 			"request": "launch",
-			"preLaunchTask": "ex4 Win64 DebugGame Build",
-			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\Binaries\\Win64\\ex4-Win64-DebugGame.exe",
+			"preLaunchTask": "ex4 Mac DebugGame Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/Binaries/Mac/ex4-Mac-DebugGame.app/Contents/MacOS/ex4-Mac-DebugGame",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		},
 		{
 			"name": "ex4 (Development)",
 			"request": "launch",
-			"preLaunchTask": "ex4 Win64 Development Build",
-			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\Binaries\\Win64\\ex4.exe",
+			"preLaunchTask": "ex4 Mac Development Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/Binaries/Mac/ex4.app/Contents/MacOS/ex4",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		},
 		{
 			"name": "ex4 (Shipping)",
 			"request": "launch",
-			"preLaunchTask": "ex4 Win64 Shipping Build",
-			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\Binaries\\Win64\\ex4-Win64-Shipping.exe",
+			"preLaunchTask": "ex4 Mac Shipping Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/Binaries/Mac/ex4-Mac-Shipping.app/Contents/MacOS/ex4-Mac-Shipping",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		},
 		{
 			"name": "ex4 (Test)",
 			"request": "launch",
-			"preLaunchTask": "ex4 Win64 Test Build",
-			"program": "C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\Binaries\\Win64\\ex4-Win64-Test.exe",
+			"preLaunchTask": "ex4 Mac Test Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/Binaries/Mac/ex4-Mac-Test.app/Contents/MacOS/ex4-Mac-Test",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		},
 		{
 			"name": "ex4Editor (Debug)",
 			"request": "launch",
-			"preLaunchTask": "ex4Editor Win64 Debug Build",
-			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"preLaunchTask": "ex4Editor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
 			"args": [
-				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\ex4.uproject",
+				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/ex4.uproject",
 				"-debug"
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		},
 		{
 			"name": "ex4Editor (DebugGame)",
 			"request": "launch",
-			"preLaunchTask": "ex4Editor Win64 DebugGame Build",
-			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"preLaunchTask": "ex4Editor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
 			"args": [
-				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\ex4.uproject",
+				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/ex4.uproject",
 				"-debug"
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		},
 		{
 			"name": "ex4Editor (Development)",
 			"request": "launch",
-			"preLaunchTask": "ex4Editor Win64 Development Build",
-			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"preLaunchTask": "ex4Editor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
 			"args": [
-				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex4\\ex4.uproject"
+				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex4/ex4.uproject"
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
 		}
 	]
 }

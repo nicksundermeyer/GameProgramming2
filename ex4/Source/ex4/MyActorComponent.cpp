@@ -35,8 +35,6 @@ void UMyActorComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 		FTransform newTransform = myParent->GetTransform() * LocalTransform;
 		GetOwner()->SetActorTransform(newTransform);
 	}
-
-	LocalTransform.SetRotation(LocalTransform.GetRotation());
 }
 
 // Helper functions

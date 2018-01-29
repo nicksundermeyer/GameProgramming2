@@ -11,11 +11,11 @@ class EX4_API UMyActorComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-protected:
+  protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:
+  public:
 	UMyActorComponent();
 
 	// Called every frame
@@ -29,9 +29,6 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	FTransform LocalTransform;
-
-	UPROPERTY(EditAnywhere)
-	FQuat rotSpeed;
 
 	// adjust scale, rotation, translation of LocalTransform
 	UFUNCTION(BlueprintCallable)
