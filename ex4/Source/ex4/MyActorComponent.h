@@ -27,10 +27,19 @@ public:
 	UPROPERTY(EditAnywhere)
 	TArray<AActor *> myChildren;
 
+	UPROPERTY(EditAnywhere)
 	FTransform LocalTransform;
 
+	UPROPERTY(EditAnywhere)
+	FQuat rotSpeed;
+
 	// adjust scale, rotation, translation of LocalTransform
-	// void Scale(FVector newScale);
-	// void Rotate(FQuat newRot);
-	// void Translate(FVector newTrans);
+	UFUNCTION(BlueprintCallable)
+	void Scale(FVector newScale);
+
+	UFUNCTION(BlueprintCallable)
+	void Rotate(FQuat newRot);
+
+	UFUNCTION(BlueprintCallable)
+	void Translate(FVector newTrans);
 };

@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MyActorComponent.h"
+#include <iostream>
 
 // Sets default values for this component's properties
 UMyActorComponent::UMyActorComponent()
@@ -14,12 +15,14 @@ UMyActorComponent::UMyActorComponent()
 void UMyActorComponent::BeginPlay()
 {
 	Super::BeginPlay();
+	UActorComponent::RegisterComponent();
 
 	// set up LocalTransform
-	// if (myParent == nullptr)
-	// {
-	// 	LocalTransform = GetOwner()->GetTransform();
-	// }
+	if (myParent == nullptr)
+	{
+		LocalTransform = GetOwner()->GetTransform();
+		LocalTransform.SetScale3D(FVector(1, 1, 1));
+	}
 }
 
 // Called every frame
@@ -27,25 +30,26 @@ void UMyActorComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// if (GetOwner())
-	// {
-	// 	FTransform newTransform = myParent->GetActorTransform() * GetOwner()->GetActorTransform();
+	if (myParent)
+	{
+		FTransform newTransform = myParent->GetTransform() * LocalTransform;
+		GetOwner()->SetActorTransform(newTransform);
+	}
 
-	// 	GetOwner()->SetActorTransform(newTransform);
-	// }
+	LocalTransform.SetRotation(LocalTransform.GetRotation());
 }
 
 // Helper functions
-// void Scale(FVector newScale)
-// {
-// 	LocalTransform.SetScale3D(LocalTransform.GetScale3D() + newScale);
-// }
+void UMyActorComponent::Scale(FVector newScale)
+{
+	LocalTransform.SetScale3D(newScale);
+}
 
-// void Rotate(FQuat newRot)
-// {
-// 	LocalTransform.SetRotation(LocalTransform.GetRotation() + newRotation);
-// }
-// void Translate(FVector newTrans)
-// {
-// 	LocalTransform.SetTranslation(LocalTransform.GetTranslation() + newTrans);
-// }
+void UMyActorComponent::Rotate(FQuat newRot)
+{
+	LocalTransform.SetRotation(LocalTransform.GetRotation() + newRot);
+}
+void UMyActorComponent::Translate(FVector newTrans)
+{
+	LocalTransform.SetTranslation(LocalTransform.GetTranslation() + newTrans);
+}
