@@ -1,0 +1,8 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"/Users/nicksun/ProgrammingProjects/GameProgramming2/GameProject2/.vscode": true,
+		"/Users/nicksun/ProgrammingProjects/GameProgramming2/GameProject2/Content": true,
+		"/Users/nicksun/ProgrammingProjects/GameProgramming2/GameProject2/Intermediate": true
+	}
+}

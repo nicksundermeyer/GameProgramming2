@@ -25,7 +25,7 @@ void UMyActorComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 
 	FQuat newRot = GetOwner()->GetActorQuat() * rotSpeed;
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("(%f, %f, %f, %f)"), newRot.X, newRot.Y, newRot.Z, newRot.W));
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("(%f, %f, %f, %f)"), newRot.X, newRot.Y, newRot.Z, newRot.W));
 	// FString::Printf(TEXT("(%f, %f, %f, %f)"), rotSpeed.X, rotSpeed.Y, rotSpeed.Z, rotSpeed.W));
 
 	// now set it, a bit of a tedious way to do this

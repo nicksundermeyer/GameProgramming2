@@ -1,0 +1,90 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ex6 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ex6 Mac Debug Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Binaries/Mac/ex6-Mac-Debug.app/Contents/MacOS/ex6-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex6 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ex6 Mac DebugGame Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Binaries/Mac/ex6-Mac-DebugGame.app/Contents/MacOS/ex6-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex6 (Development)",
+			"request": "launch",
+			"preLaunchTask": "ex6 Mac Development Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Binaries/Mac/ex6.app/Contents/MacOS/ex6",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex6 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ex6 Mac Shipping Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Binaries/Mac/ex6-Mac-Shipping.app/Contents/MacOS/ex6-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex6 (Test)",
+			"request": "launch",
+			"preLaunchTask": "ex6 Mac Test Build",
+			"program": "/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Binaries/Mac/ex6-Mac-Test.app/Contents/MacOS/ex6-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex6Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ex6Editor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex6Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ex6Editor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "ex6Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ex6Editor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		}
+	]
+}
