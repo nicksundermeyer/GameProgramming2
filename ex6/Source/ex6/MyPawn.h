@@ -20,18 +20,25 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-
 	UPROPERTY(EditAnywhere)
-	float Speed;
+	float Speed = 100;
 
 	UStaticMeshComponent* mesh;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void startMovingForward();
+	void stopMovingForward();
 	void MoveForward();
+	void VerticalRotate(float Rate);
+	void HorizontalRotate(float Rate);
+
+private:
+	bool moveForward;
 	
 	
 };

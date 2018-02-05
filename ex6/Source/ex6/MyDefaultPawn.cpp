@@ -1,79 +1,78 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MyDefaultPawn.h"
+#include "GameFramework/Pawn.h"
+#include "GameFramework/DamageType.h"
+#include "Engine/World.h"
+#include "GameFramework/Controller.h"
+#include "Components/PrimitiveComponent.h"
+#include "AI/Navigation/NavigationSystem.h"
+#include "Components/InputComponent.h"
+#include "GameFramework/PlayerController.h"
+#include "Engine/Engine.h"
+#include "Engine/Canvas.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "UnrealEngine.h"
+#include "GameFramework/Character.h"
+#include "GameFramework/PawnMovementComponent.h"
+#include "Net/UnrealNetwork.h"
+#include "DisplayDebugHelpers.h"
+#include "Engine/InputDelegateBinding.h"
+#include "Interfaces/NetworkPredictionInterface.h"
+#include "GameFramework/PlayerState.h"
+#include "Components/PawnNoiseEmitterComponent.h"
+#include "GameFramework/GameNetworkManager.h"
 
+#define print(text) if(GEngine)  GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, text);
 
-
-
-// Sets default values
-AMyDefaultPawn::AMyDefaultPawn()
+void AMyDefaultPawn::PossessedBy(AController* NewController)
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	AController* const OldController = Controller;
 
-	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	Controller = NewController;
+	ForceNetUpdate();
 
-	ConstructorHelpers::FObjectFinder<UStaticMesh> asset(TEXT("/Game/Meshes/Shape_Cone.Shape_Cone"));
-	if (asset.Succeeded())
+	if (Controller->PlayerState != NULL)
 	{
-		mesh->SetStaticMesh(asset.Object);
-		mesh->SetWorldScale3D(FVector(.50f));
+		PlayerState = Controller->PlayerState;
 	}
 
-	RootComponent = mesh;
+	if (APlayerController* PlayerController = Cast<APlayerController>(Controller))
+	{
+		if (GetNetMode() != NM_Standalone)
+		{
+			SetReplicates(true);
+			SetAutonomousProxy(true);
+		}
+	}
+	else
+	{
+		CopyRemoteRoleFrom(GetDefault<APawn>());
+	}
 
-	AutoPossessPlayer = EAutoReceiveInput::Player0;
+	// dispatch Blueprint event if necessary
+	if (OldController != NewController)
+	{
+		ReceivePossessed(Controller);
+	}
 
-}
-
-// Called when the game starts or when spawned
-void AMyDefaultPawn::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void AMyDefaultPawn::Tick( float DeltaTime )
-{
-	Super::Tick( DeltaTime );
-
-	// movement components get all the inputs and store them in an input vector
-	// so we can just grab this, multiply it by the speed, and move our actor
-	// FVector v = GetMovementComponent()->GetLastInputVector();
-	// if (!v.IsNearlyZero())
-	// {
-	// 	v = v.GetClampedToMaxSize(1.0f);
-	// 	v *= Speed;
-	// 	SetActorLocation(GetActorLocation() + (v * DeltaTime));
-	// 	// get rid of the last input vector
-	// 	GetMovementComponent()->ConsumeInputVector();
-	// }
-	
-    //     // I don't like the way they designed this because it uses FRotator, but I can also write less code using this
-	// FRotator rot = GetControlRotation();
-	// if (!rot.IsNearlyZero())
-	// {
-	// 	// set the rotation of this pawn
-	// 	SetActorRotation(rot);
-	// }
-}
-
-// Called to bind functionality to input
-void AMyDefaultPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	print(NewController->GetName());
 
 }
 
-// move forwad
-
-void AMyDefaultPawn::MoveForward()
+void AMyDefaultPawn::MoveForward(float Val)
 {
-	// UPawnMovementComponent *comp = GetMovementComponent();
+	if (Val != 0.f)
+	{
+		if (Controller)
+		{
+			FRotator const ControlSpaceRot = Controller->GetControlRotation();
 
-	// FVector forward = Speed * GetActorForwardVector();
-	// // GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("MyPawn MoveForward: (%f, %f, %f)"), forward.X, forward.Y, forward.Z));
-	// // the movement component accumulates these inputs into a single vector that we can then process in Tick 
-	// comp->AddInputVector(forward, false);
+			// transform to world space and add it
+			AddMovementInput(FRotationMatrix(ControlSpaceRot).GetScaledAxis(EAxis::X), Val);
+		}
+	}
+
+	print(FString::SanitizeFloat(Val));
 }

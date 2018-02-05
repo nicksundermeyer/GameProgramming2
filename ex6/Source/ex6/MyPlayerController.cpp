@@ -1,7 +1,21 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MyPlayerController.h"
+#include "MyDefaultPawn.h"
 #include "MyPawn.h"
+#include "Engine/Engine.h"
+
+#define print(text) if(GEngine)  GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, text);
+
+AMyPlayerController::AMyPlayerController()
+{
+	//AMyDefaultPawn *pawn = Cast<AMyDefaultPawn>(GetPawn());
+	//if (pawn)
+	//{
+	//	print("Possessing pawn");
+	//	AMyPlayerController::Possess(pawn);
+	//}
+}
 
 void AMyPlayerController::SetupInputComponent()
 {
@@ -17,16 +31,17 @@ void AMyPlayerController::SetupInputComponent()
     InputComponent->BindAction("Forward", IE_Pressed, this, &AMyPlayerController::MoveForward);
 
     // bind defined axes
-    // InputComponent->BindAxis("Horizontal", this, &AMyPlayerController::MoveForward);
-    // InputComponent->BindAxis("Vertical", this, &AMyPlayerController::MoveRight);
+     //InputComponent->BindAxis("Horizontal", this, &AMyPlayerController::RotateUp);
+     //InputComponent->BindAxis("Vertical", this, &AMyPlayerController::MoveRight);
 }
 
 void AMyPlayerController::MoveForward()
 {
     // GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Moving forward"));
-    AMyDefaultPawn *pawn = Cast<AMyDefaultPawn>(GetPawn());
+	AMyDefaultPawn *pawn = Cast<AMyDefaultPawn>(GetPawn());
     if (pawn)
     {
-        pawn->MoveForward();
+		print("Moving forward");
+        pawn->MoveForward(10);
     }
 }

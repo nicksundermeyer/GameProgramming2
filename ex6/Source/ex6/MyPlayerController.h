@@ -15,7 +15,11 @@ class EX6_API AMyPlayerController : public APlayerController
 	GENERATED_BODY()
 	
 public:
+	AMyPlayerController();
+
+	UPROPERTY(EditAnywhere)
+		float speed;
+
 	void SetupInputComponent();
 	void MoveForward();
-	
 };

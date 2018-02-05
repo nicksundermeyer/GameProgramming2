@@ -18,5 +18,7 @@ class EX6_API AMyGameModeBase : public AGameModeBase
 public:
 	AMyGameModeBase();
 	virtual ~AMyGameModeBase();
+
+	//virtual void Tick(float DeltaSeconds) override;
 	
 };
