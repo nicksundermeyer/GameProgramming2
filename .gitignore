@@ -73,3 +73,4 @@ StarterContent/
 
 # VS artifacts
 *.db
+.vs/

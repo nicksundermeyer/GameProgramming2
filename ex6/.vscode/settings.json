@@ -1,9 +1,9 @@
 {
 	"typescript.tsc.autoDetect": "off",
 	"files.exclude": {
-		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/.vscode": true,
-		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Content": true,
-		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Intermediate": true,
-		"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/Saved": true
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/.vscode": true,
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Content": true,
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Intermediate": true,
+		"C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Saved": true
 	}
 }

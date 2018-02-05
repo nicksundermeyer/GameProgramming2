@@ -23,7 +23,8 @@ void AMyPlayerController::SetupInputComponent()
 
 void AMyPlayerController::MoveForward()
 {
-    AMyPawn *pawn = Cast<AMyPawn>(GetPawn());
+    // GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Moving forward"));
+    AMyDefaultPawn *pawn = Cast<AMyDefaultPawn>(GetPawn());
     if (pawn)
     {
         pawn->MoveForward();

@@ -2,633 +2,615 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"taskName": "ex6 Mac Debug Build",
+			"taskName": "ex6 Win32 Debug Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"Mac",
+				"Win32",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 Mac Debug Clean",
+			"taskName": "ex6 Win32 Debug Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"Mac",
+				"Win32",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 Mac DebugGame Build",
+			"taskName": "ex6 Win32 DebugGame Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"Mac",
+				"Win32",
 				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 Mac DebugGame Clean",
+			"taskName": "ex6 Win32 DebugGame Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"Mac",
+				"Win32",
 				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 Mac Development Build",
+			"taskName": "ex6 Win32 Development Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"Mac",
+				"Win32",
 				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 Mac Development Clean",
+			"taskName": "ex6 Win32 Development Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"Mac",
+				"Win32",
 				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
-			}
-		},
-		{
-			"taskName": "ex6 Mac Shipping Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ex6",
-				"Mac",
-				"Shipping",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 Mac Shipping Clean",
+			"taskName": "ex6 Win32 Shipping Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"Mac",
+				"Win32",
 				"Shipping",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
-			}
-		},
-		{
-			"taskName": "ex6 Mac Test Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ex6",
-				"Mac",
-				"Test",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 Mac Test Clean",
+			"taskName": "ex6 Win32 Shipping Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"Mac",
-				"Test",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"Win32",
+				"Shipping",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS Debug Build",
+			"taskName": "ex6 Win32 Test Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"IOS",
+				"Win32",
+				"Test",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex6 Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ex6",
+				"Win32",
+				"Test",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex6 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ex6",
+				"Win64",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS Debug Clean",
+			"taskName": "ex6 Win64 Debug Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"IOS",
+				"Win64",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS DebugGame Build",
+			"taskName": "ex6 Win64 DebugGame Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"IOS",
+				"Win64",
 				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS DebugGame Clean",
+			"taskName": "ex6 Win64 DebugGame Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"IOS",
+				"Win64",
 				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS Development Build",
+			"taskName": "ex6 Win64 Development Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"IOS",
+				"Win64",
 				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS Development Clean",
+			"taskName": "ex6 Win64 Development Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"IOS",
+				"Win64",
 				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
-			}
-		},
-		{
-			"taskName": "ex6 IOS Shipping Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ex6",
-				"IOS",
-				"Shipping",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS Shipping Clean",
+			"taskName": "ex6 Win64 Shipping Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
-				"IOS",
+				"Win64",
 				"Shipping",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
-			}
-		},
-		{
-			"taskName": "ex6 IOS Test Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ex6",
-				"IOS",
-				"Test",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6 IOS Test Clean",
+			"taskName": "ex6 Win64 Shipping Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
-				"IOS",
-				"Test",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"Win64",
+				"Shipping",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex6 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ex6",
+				"Win64",
+				"Test",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex6 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ex6",
+				"Win64",
+				"Test",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Debug Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Debug Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 DebugGame Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 DebugGame Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Development Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Development Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Shipping Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Shipping",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Shipping Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Shipping",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Test Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Test",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
 			"taskName": "ex6 HTML5 Test Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6",
 				"HTML5",
 				"Test",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6Editor Mac Debug Build",
+			"taskName": "ex6Editor Win64 Debug Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6Editor",
-				"Mac",
+				"Win64",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6Editor Mac Debug Clean",
+			"taskName": "ex6Editor Win64 Debug Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6Editor",
-				"Mac",
+				"Win64",
 				"Debug",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
-			}
-		},
-		{
-			"taskName": "ex6Editor Mac DebugGame Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ex6Editor",
-				"Mac",
-				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6Editor Mac DebugGame Clean",
+			"taskName": "ex6Editor Win64 DebugGame Build",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ex6Editor",
-				"Mac",
+				"Win64",
 				"DebugGame",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
-			}
-		},
-		{
-			"taskName": "ex6Editor Mac Development Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ex6Editor",
-				"Mac",
-				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		},
 		{
-			"taskName": "ex6Editor Mac Development Clean",
+			"taskName": "ex6Editor Win64 DebugGame Clean",
 			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
 				"ex6Editor",
-				"Mac",
-				"Development",
-				"/Users/nicksun/ProgrammingProjects/GameProgramming2/ex6/ex6.uproject",
-				"-waitmutex",
-				"-clean"
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex6Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ex6Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ex6Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ex6Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\nicks\\Documents\\ProgrammingProjects\\GameProgramming2\\ex6\\ex6.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
 			}
 		}
 	]
