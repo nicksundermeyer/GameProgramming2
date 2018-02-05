@@ -12,10 +12,10 @@
 
 AMyGameModeBase::AMyGameModeBase() : AGameModeBase()
 {
-	//GameStateClass = AMyGameStateBase::StaticClass();
+    // GameStateClass = AMyGameStateBase::StaticClass();
     DefaultPawnClass = AMyPawn::StaticClass();
-    //PlayerControllerClass = AMyPlayerController::StaticClass();
-	//PlayerStateClass = AMyPlayerState::StaticClass();
+    // PlayerControllerClass = AMyPlayerController::StaticClass();
+    // PlayerStateClass = AMyPlayerState::StaticClass();
 }
 
 AMyGameModeBase::~AMyGameModeBase()

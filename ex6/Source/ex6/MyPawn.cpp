@@ -106,7 +106,7 @@ void AMyPawn::MoveForward()
 void AMyPawn::VerticalRotate(float Rate)
 {
 	FVector right = GetActorRightVector();
-	FQuat newRot = GetActorQuat() * FQuat(right, Rate*0.03);
+	FQuat newRot =  FQuat(right, Rate*0.03) * GetActorQuat();
 	//print(FString::Printf(TEXT("x: %f y: %f z: %f w: %f"), newRot.X, newRot.Y, newRot.Z, newRot.W));
 
 	FTransform t = GetTransform();
@@ -117,7 +117,7 @@ void AMyPawn::VerticalRotate(float Rate)
 void AMyPawn::HorizontalRotate(float Rate)
 {
 	FVector up = GetActorUpVector();
-	FQuat newRot = GetActorQuat() * FQuat(up, Rate*0.03);
+	FQuat newRot = FQuat(up, Rate*0.03) * GetActorQuat();
 	//print(FString::Printf(TEXT("x: %f y: %f z: %f w: %f"), newRot.X, newRot.Y, newRot.Z, newRot.W));
 
 	FTransform t = GetTransform();
