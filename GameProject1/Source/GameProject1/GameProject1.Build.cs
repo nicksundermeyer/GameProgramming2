@@ -4,10 +4,10 @@ using UnrealBuildTool;
 
 public class GameProject1 : ModuleRules
 {
-	public GameProject1(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+    public GameProject1(ReadOnlyTargetRules Target) : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
-	}
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "AIModule", "GameplayTasks" });
+    }
 }
