@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTTaskNode.h"
+#include "UObject/ObjectMacros.h"
+#include "BehaviorTree/BTNode.h"
 #include "BTSelectPatrolPoint.generated.h"
 
 /**

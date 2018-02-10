@@ -4,7 +4,10 @@
 #include "AIPatrolPoint.h"
 #include "EnemyAIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
-#include "Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeTypes.h"
+#include "BehaviorTree/BTTaskNode.h"
+#include "AIController.h"
+#include "VisualLogger/VisualLogger.h"
+#include "GameplayTasksComponent.h"
 
 //EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 //{
