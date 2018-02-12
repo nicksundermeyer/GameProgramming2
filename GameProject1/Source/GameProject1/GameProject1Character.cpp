@@ -101,6 +101,8 @@ void AGameProject1Character::SetupPlayerInputComponent(class UInputComponent* Pl
 
 void AGameProject1Character::OnFire()
 {
+	print("fired");
+
 	// try and fire a projectile
 	if (ProjectileClass != NULL)
 	{

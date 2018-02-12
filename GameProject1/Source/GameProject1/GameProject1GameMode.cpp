@@ -1,7 +1,6 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
 #include "GameProject1GameMode.h"
-#include "GameProject1HUD.h"
 #include "GameProject1Character.h"
 #include "MyGameStateBase.h"
 #include "MainPlayerState.h"
@@ -32,9 +31,6 @@ AGameProject1GameMode::AGameProject1GameMode()
 
 	// setup game state class
 	GameStateClass = AMyGameStateBase::StaticClass();
-
-	// use our custom HUD class
-	HUDClass = AGameProject1HUD::StaticClass();
 }
 
 void AGameProject1GameMode::StartPlay()
