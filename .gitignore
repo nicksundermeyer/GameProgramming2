@@ -34,6 +34,7 @@
 *.sdf
 *.sln
 *.db
+*.vscode
 
 # Precompiled Assets
 **/SourceArt/**/*.png
