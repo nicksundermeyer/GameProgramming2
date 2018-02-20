@@ -33,6 +33,9 @@ public:
 
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* SphereVisual;
+
 	// movement functions
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
