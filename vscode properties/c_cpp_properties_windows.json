@@ -2,11 +2,12 @@
     "configurations": [
         {
             "name": "UnrealEngine",
+            "C_Cpp.intelliSenseEngine": "Default",
             "includePath": [
                 "C:/Program Files/Epic Games/UE_4.18/Engine/Source",
-                "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Source",
-                "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Intermediate/Build/Win64/UE4Editor/Inc/ex6",
-                "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Source/ex6",
+                "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/GameProject1/Source",
+                "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/GameProject1/Intermediate/Build/Win64/UE4Editor/Inc/GameProject1",
+                "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/GameProject1/Source/GameProject1",
                 "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public",
                 "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public/Internationalization",
                 "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public/Async",
@@ -352,9 +353,9 @@
             "browse": {
                 "path": [
                     "C:/Program Files/Epic Games/UE_4.18/Engine/Source",
-                    "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Source",
-                    "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Intermediate/Build/Win64/UE4Editor/Inc/ex6",
-                    "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/ex6/Source/ex6",
+                    "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/GameProject1/Source",
+                    "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/GameProject1/Intermediate/Build/Win64/UE4Editor/Inc/GameProject1",
+                    "C:/Users/nicks/Documents/ProgrammingProjects/GameProgramming2/GameProject1/Source/GameProject1",
                     "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public",
                     "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public/Internationalization",
                     "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public/Async",

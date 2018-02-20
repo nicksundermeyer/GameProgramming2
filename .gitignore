@@ -34,7 +34,6 @@
 *.sdf
 *.sln
 *.db
-*.vscode
 
 # Precompiled Assets
 **/SourceArt/**/*.png
@@ -75,3 +74,4 @@ StarterContent/
 # VS artifacts
 *.db
 .vs/
+.vscode/
