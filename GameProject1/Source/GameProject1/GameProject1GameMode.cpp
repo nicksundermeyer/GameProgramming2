@@ -104,6 +104,15 @@ void AGameProject1GameMode::HandleMatchHasEnded()
 	AMyGameStateBase* const MyGameState = Cast<AMyGameStateBase>(GameState);
 	MyGameState->setTimer(false);
 
+	UWorld* TheWorld = GetWorld();
+
+	FString CurrentLevel = TheWorld->GetMapName();
+
+	if (CurrentLevel == "Level1")
+	{
+		UGameplayStatics::OpenLevel(GetWorld(), "Level2");
+	}
+
 	if(GEngine)
 	{
 		//print("HandleMatchHasEnded");
