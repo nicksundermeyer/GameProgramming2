@@ -39,7 +39,7 @@ void AGameProject1GameMode::StartPlay()
 
 	if(GEngine)
 	{
-		print("StartPlay");
+		//print("StartPlay");
 	}
 }
 
@@ -88,7 +88,7 @@ void AGameProject1GameMode::HandleMatchHasStarted()
 
 	if(GEngine)
 	{
-		print("HandleMatchHasStarted");
+		//print("HandleMatchHasStarted");
 	}	
 }
 
@@ -106,6 +106,6 @@ void AGameProject1GameMode::HandleMatchHasEnded()
 
 	if(GEngine)
 	{
-		print("HandleMatchHasEnded");
+		//print("HandleMatchHasEnded");
 	}	
 }
