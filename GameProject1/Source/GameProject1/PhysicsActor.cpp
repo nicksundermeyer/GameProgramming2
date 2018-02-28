@@ -44,8 +44,7 @@ void APhysicsActor::OnMyHit(AActor* SelfActor, AActor* OtherActor, FVector Norma
 {
 	//print(FString::SanitizeFloat(NormalImpulse.Size()));
 
-	if (!AudioComponent->IsPlaying() && NormalImpulse.Size() > HitSensitivity)
-	{
-		AudioComponent->Play();
-	}
+	AudioComponent->SetVolumeMultiplier(NormalImpulse.Size()/5000);
+	AudioComponent->Play();
+	
 }
