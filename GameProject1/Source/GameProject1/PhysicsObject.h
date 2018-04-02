@@ -34,6 +34,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		UAudioComponent* AudioComponent;
+
+	UPROPERTY(EditAnywhere)
+		float sensitivity;
 	
 	
 };
